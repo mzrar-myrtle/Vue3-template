@@ -7,6 +7,6 @@ const counterStore = useCounterStore();
 <template>
   <div class="tw-grid tw-justify-center">
     <h1 class="tw-text-xl">Home {{ counterStore.count }}</h1>
-    <button @click="counterStore.increment">Increment</button>
+    <q-btn color="primary" @Click="counterStore.increment" label="Primary" />
   </div>
 </template>
